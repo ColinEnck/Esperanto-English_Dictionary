@@ -13,7 +13,7 @@ while True:
         word = word.strip().lower().replace("ch", "ĉ").replace("gh", "ĝ")\
         .replace("hh", "ĥ").replace("jh", "ĵ").replace("sh", "ŝ").replace("uh", "ŭ")\
         .replace("'", "")
-    f = open("/home/colinenck/CS/repos/Espdic/espdic.txt")
+    f = open("espdic.txt")
     text = f.readlines()
 
     # matching line of text
